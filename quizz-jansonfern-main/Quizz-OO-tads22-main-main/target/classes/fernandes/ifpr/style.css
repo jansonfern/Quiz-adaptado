@@ -1,0 +1,44 @@
+.root {
+  -fx-background-color: #108f84; 
+  -fx-padding: 20px; 
+  -fx-font-family: "Arial", sans-serif; 
+}
+
+.enunciado {
+  -fx-font-size: 24px; 
+  -fx-fill: white;
+  -fx-font-weight: bold;
+  -fx-text-alignment: center;
+  -fx-padding: 10px;
+}
+
+.button {
+  -fx-background-color: #9b1313;
+  -fx-text-fill: white; 
+  -fx-font-size: 16px; 
+  -fx-padding: 12px 24px; 
+  -fx-margin: 5px; 
+  -fx-border-radius: 8px; 
+  -fx-background-radius: 8px; 
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 8, 0, 0, 2);
+  -fx-cursor: hand; 
+}
+
+.proxima, .reiniciar {
+  -fx-background-color: #006400; 
+  -fx-text-fill: white;
+  -fx-font-size: 18px; 
+  -fx-padding: 12px 24px; 
+  -fx-border-radius: 8px; 
+  -fx-background-radius: 8px;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 8, 0, 0, 2); 
+  -fx-cursor: hand; 
+}
+
+.resultado {
+  -fx-font-size: 20px;
+  -fx-fill: white;
+  -fx-font-weight: bold; 
+  -fx-text-alignment: center; 
+  -fx-padding: 10px; 
+}
